@@ -175,3 +175,9 @@ body {
     border-radius: 0 0 2rem 2rem;
   }
 }
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
